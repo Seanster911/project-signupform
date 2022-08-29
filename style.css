@@ -17,7 +17,17 @@ form {
 
 fieldset {
     border: 0;
+    background-color: #FFF;
     outline: none;
+    width: 100%;
+    padding: 0;
+    padding-bottom: 16px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(0,0,0,0.1);
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,0.1);
+    padding-right: 16px;
+    padding-left: 16px;
 }
 
 .container {
@@ -80,13 +90,10 @@ fieldset {
 }
 
 #form-container {
-    background-color: #FFF;
     flex-grow: 1;
     border-top-color: rgba(0,0,0,0.2);
     border-top-style: solid;
     border-top-width: 1px;
-    padding-right: 32px;
-    padding-left: 32px;
     display: flex;
 }
 
@@ -95,9 +102,28 @@ fieldset {
     display: flex;
     flex-grow: 1;
     flex-wrap: wrap;
-    gap: 32px;
+    gap: 0;
     width: 50%;
     justify-content: space-between;
     align-items: center;
     padding: 0;
+}
+
+.input-container {
+    padding: 6px;
+}
+
+#submit {
+    padding: 10px;
+    width: 200px;
+    background-color: rgb(10,150,10);
+    border-radius: 8px;
+    border-style: none;
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,0.8);
+    color: #FFF;
+}
+
+.submitBtn {
+    padding: 32px;
+    padding-top: 8px;
 }

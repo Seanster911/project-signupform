@@ -30,6 +30,11 @@ fieldset {
     padding-left: 16px;
 }
 
+h4 {
+    margin: 0;
+    padding: 6px;
+}
+
 .container {
     height: 100vh;
     padding: 0;
@@ -42,7 +47,7 @@ fieldset {
     background-image: url('background.avif');
     background-size: cover;
     background-repeat: no-repeat;
-    width: 450px;
+    width: 700px;
     height: 100vh;
     color: #FFF;
 }
@@ -72,7 +77,7 @@ fieldset {
     padding: 0;
     margin: 0;
     height: 100vh;
-    background-color: rgba(240,240,240,1);
+    background-color: rgba(220,220,220,1);
     width: auto;
     display: flex;
     flex-direction: column;
@@ -107,6 +112,19 @@ fieldset {
     justify-content: space-between;
     align-items: center;
     padding: 0;
+    margin: 0;
+}
+
+input {
+    border-radius: 4px;
+    border-style: solid;
+    height: 20px;
+    width: 200px;
+}
+
+input:invalid {
+    border-color: red;
+    border-style: solid;
 }
 
 .input-container {
@@ -124,6 +142,24 @@ fieldset {
 }
 
 .submitBtn {
+    margin: 0;
+    margin-top: 8px;
     padding: 32px;
     padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+label {
+    display: block;
+    margin-top: 2px;
+}
+
+#footer {
+    padding: 16px;
+    padding-top: 0;
+}
+
+a {
+    color: rgb(0,100,0);
+    text-decoration: none;
 }

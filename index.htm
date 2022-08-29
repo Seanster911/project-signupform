@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign up form practice</title>
     <link rel="stylesheet" href="style.css">
+    <script src="validate.js" defer></script>
 </head>
 <body>
     <div class="container">
@@ -62,10 +63,11 @@
                             <li>
                                 <div class="input-container">
                                     <label for="confirm-pwd">Confirm Password</label>
-                                    <input type="password" id="pwd"required>
+                                    <input type="password" id="confirm-pwd" required>
                                 </div>
                             </li>
                         </ol>
+                        <div id="validation">* The passwords do not match!</div>
                     </fieldset>
                     <div class="submitBtn">
                         <button type="Submit" id="submit">Create Account</button>

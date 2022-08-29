@@ -127,6 +127,13 @@ input:invalid {
     border-style: solid;
 }
 
+input:focus {
+    border-color: #0f7ffe;
+    outline: none;
+    border-style: solid;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.6);
+}
+
 .input-container {
     padding: 6px;
 }
@@ -162,4 +169,11 @@ label {
 a {
     color: rgb(0,100,0);
     text-decoration: none;
+}
+
+#validation {
+    visibility: hidden;
+    color: red;
+    padding: 0;
+    margin: 0;
 }
